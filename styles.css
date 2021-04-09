@@ -1,0 +1,63 @@
+body {
+background-color: #ffd880;
+text-align: center;
+  }
+
+  #title {
+  font-size: 6rem;
+  text-align: center;
+  color: #f14668;
+}
+
+.set {
+margin: 15% auto;
+font-size: 7rem;
+}
+
+.w {
+
+}
+
+.a {
+
+}
+
+.s {
+
+}
+
+.d {
+
+}
+
+.j {
+
+}
+
+.k {
+
+}
+
+.l {
+
+}
+
+.drum {
+  width: 150px;
+  height: 150px;
+  background-color: #290149;
+  color: #eeebdd;
+  border-radius: 15%;
+  font-size: 3rem;
+  border: 10px solid;
+  display: inline-block;
+  text-align: center;
+  line-height: 4;
+}
+footer {
+  margin-top: 15%;
+  color: #f14668;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
