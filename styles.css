@@ -53,9 +53,7 @@ background-image: url('images/kick.png');
   text-align: center;
   line-height: 3;
   font-family: 'Cinzel', serif;
-  /* color: #FFFF66; */
-  /* color: #00FF00; */
-  color: 	#FFBD88;
+  color:#00FA9A;
   font-weight: bolder;
 }
 footer {
