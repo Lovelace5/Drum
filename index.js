@@ -38,16 +38,16 @@ function makeSound(key){
       tom4.play();
       break;
     case "j":
+      var snare = new Audio("sounds/snare.mp3");
+      snare.play();
+      break;
+    case "k":
       var crash = new Audio("sounds/crash.mp3");
       crash.play();
       break;
-    case "k":
+    case "l":
       var kick = new Audio("sounds/kick-bass.mp3");
       kick.play();
-      break;
-    case "l":
-      var snare = new Audio("sounds/snare.mp3");
-      snare.play();
       break;
     default:
       console.log(buttonInnerHtml);
