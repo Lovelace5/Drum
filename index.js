@@ -8,6 +8,7 @@ for (let i = 0; i < buttonsArray.length; i++) {
 function handleClick() {
   let buttonInnerHtml = this.innerHTML;
   makeSound(buttonInnerHtml);
+  buttonAnimation(buttonInnerHtml);
 }
 
 // Detecting keyboard press
@@ -15,6 +16,7 @@ function handleClick() {
 document.addEventListener("keydown", function(event){
   let pressedKey = event.key;
   makeSound(pressedKey);
+  buttonAnimation(pressedKey)
 });
 
 function makeSound(key){
@@ -50,4 +52,13 @@ function makeSound(key){
     default:
       console.log(buttonInnerHtml);
   };
+}
+
+function buttonAnimation(currentKey){
+  let activeButton = document.querySelector("." + currentKey);
+  activeButton.classList.add("pressed");
+
+  setTimeout(function(){
+    activeButton.classList.remove("pressed");
+  }, 100)
 }
