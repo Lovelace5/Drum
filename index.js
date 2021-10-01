@@ -1,5 +1,5 @@
 // Detecting Button click
-let buttonsArray = document.querySelectorAll(".drum")
+let buttonsArray = document.querySelectorAll(".drum");
 
 for (let i = 0; i < buttonsArray.length; i++) {
   buttonsArray[i].addEventListener("click", handleClick);

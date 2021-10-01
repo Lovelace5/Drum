@@ -18,6 +18,14 @@ font-family: 'Sans', serif;
 margin-top: 10%;
 }
 
+span {
+color: #f14668;
+}
+
+span:hover {
+color: #00FA9A;;
+}
+
 .set {
 margin: 5% auto;
 font-size: 7rem;
@@ -71,7 +79,7 @@ background-image: url('images/kick.png');
   font-weight: bolder;
 }
 footer {
-  margin-top: 7%;
+  margin-top: 12%;
   color: #f14668;
   font-size: 1rem;
   text-align: center;
