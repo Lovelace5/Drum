@@ -22,9 +22,9 @@ span {
 color: #f14668;
 }
 
-span:hover {
+/* span:hover {
 color: #00FA9A;;
-}
+} */
 
 .set {
 margin: 5% auto;
@@ -78,8 +78,11 @@ background-image: url('images/kick.png');
   color:#00FA9A;
   font-weight: bolder;
 }
+ button:hover {
+color: yellow;
+}
 footer {
-  margin-top: 12%;
+  margin-top: 13.5%;
   color: #f14668;
   font-size: 1rem;
   text-align: center;
